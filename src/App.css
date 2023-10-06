@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#header-container {
+  background: #F55A5A;
+  color: white;
+  height: 4rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-container img {
+  padding: .5rem;
+}
+
+#header-container h1 {
+  font-family: Inter;
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.06781rem; 
+}
