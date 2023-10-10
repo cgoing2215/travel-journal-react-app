@@ -1,6 +1,11 @@
+* {
+  padding: .25rem;
+}
+
 .App {
   text-align: center;
   box-sizing: border-box;
+  font-family: Inter;
 }
 
 #header-container {
@@ -18,9 +23,101 @@
 }
 
 #header-container h1 {
-  font-family: Inter;
   font-size: 1.15rem;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.06781rem; 
+}
+
+/* -- ENTRIES -- */
+
+#entry-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 3rem 2.5rem;
+}
+
+#entry-container img {
+  width: 10rem;
+  height: 15rem;
+  flex-shrink: 0;
+  border-radius: .75rem;
+  background: #918E9B;
+}
+
+#entry-description div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#location-line h3 {
+  text-transform: uppercase;
+  letter-spacing: .125rem;
+  margin-left: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#location-line img {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: white;
+  margin-left: 1.5rem;
+}
+
+#location-line a {
+  color: #918E9B;
+  font-size: .9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-left: .5rem;
+}
+
+#entry-container h1, 
+#entry-container h5, 
+#entry-container p {
+  margin-left: 1.75rem;
+}
+
+#entry-container h1 {
+  text-align: left;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+}
+
+#entry-container h5 {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+#entry-description p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  width: 30rem;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#entry-line-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#entry-line-container span {
+  height: 0.0625rem;
+  background: #F5F5F5;
 }
